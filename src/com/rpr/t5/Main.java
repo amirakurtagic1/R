@@ -35,7 +35,7 @@ public class Main {
         banka.kreirajRacun(k2);
         System.out.println("Korisnik: "+k2.toString()+", broj racuna: " + k2.getRacun().getBrojRacuna());
 
-  //      Kredit.ispisiSveKorisnikeBezPrekoracenja(banka.getKorisnici());
+        Kredit.ispisiSveKorisnikeBezPrekoracenja(banka.getKorisnici());
 
  
     }
