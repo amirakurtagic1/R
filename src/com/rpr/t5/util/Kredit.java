@@ -11,12 +11,13 @@ public class Kredit {
     }
 
     public static void ispisiSveKorisnikeBezPrekoracenja(List<Korisnik> listaKorisnika) {
+        int brojac = 0;
         listaKorisnika.stream().filter(value -> value.getRacun().getStanjeRacuna().doubleValue() > 0).forEach(value -> System.out.println(value));
+
     }
 
     public static void odobriPrekoracenje(List<Korisnik> listaKorisnika){
         listaKorisnika.stream().filter(value -> value.getRacun().getStanjeRacuna().doubleValue() > 10000).forEach(value -> value.getRacun().setOdobrenjePrekoracenja(true));
-        listaKorisnika.stream().filter(value -> value.getRacun().getStanjeRacuna().doubleValue() < 10000).forEach(value -> value.getRacun().setOdobrenjePrekoracenja(false));
-
     }
+
 }

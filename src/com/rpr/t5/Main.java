@@ -9,7 +9,7 @@ public class Main {
 
         Banka banka = new Banka();
         Korisnik k1 = banka.kreirajNovogKorisnika("Maja", "Majić");
-        System.out.println(k1);
+   //     System.out.println(k1);
         banka.kreirajRacun(k1);
         k1.getRacun().izvrsiUplatu(2345.45d);
         banka.dodajNovogUposlenog("Marko", "Marić");
