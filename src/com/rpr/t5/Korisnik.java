@@ -10,4 +10,8 @@ public class Korisnik extends Osoba {
     public Racun getRacun() {
         return racun;
     }
+
+    public void setRacun(Racun racun) {
+        this.racun = racun;
+    }
 }

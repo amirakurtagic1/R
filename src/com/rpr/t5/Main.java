@@ -1,11 +1,15 @@
 package com.rpr.t5;
 
+import com.rpr.t5.util.Kredit;
+import com.rpr.t5.util.KreditnaSposobnost;
+
 public class Main {
 
     public static void main(String[] args) {
-/*
+
         Banka banka = new Banka();
         Korisnik k1 = banka.kreirajNovogKorisnika("Maja", "Majić");
+        System.out.println(k1);
         banka.kreirajRacun(k1);
         k1.getRacun().izvrsiUplatu(2345.45d);
         banka.dodajNovogUposlenog("Marko", "Marić");
@@ -17,6 +21,7 @@ public class Main {
                 return 0d;
             }
         };
+   //     System.out.println(k1.getRacun().getStanjeRacuna());
         Double value = Kredit.proracunKreditneSposobnosti(funkcija, k1);
         if(value > 0){
             System.out.println("Korisnik: "+k1.toString()+", broj racuna: " + k1.getRacun().getBrojRacuna() + " ,ima pravo na kredit iznosa "+value.toString());
@@ -30,8 +35,8 @@ public class Main {
         banka.kreirajRacun(k2);
         System.out.println("Korisnik: "+k2.toString()+", broj racuna: " + k2.getRacun().getBrojRacuna());
 
-        Kredit.ispisiSveKorisnikeBezPrekoracenja(banka.getKorisnici());
+  //      Kredit.ispisiSveKorisnikeBezPrekoracenja(banka.getKorisnici());
 
- */
+ 
     }
 }

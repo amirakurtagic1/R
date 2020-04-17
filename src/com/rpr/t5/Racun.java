@@ -12,4 +12,17 @@ public class Racun {
         this.stanjeRacuna = 0d;
         this.odobrenjePrekoracenja = false;
     }
+
+    public void izvrsiUplatu(double v) {
+        stanjeRacuna = stanjeRacuna + v;
+        System.out.println(stanjeRacuna);
+    }
+
+    public Number getStanjeRacuna() {
+        return stanjeRacuna;
+    }
+
+    public String getBrojRacuna() {
+        return brojRacuna.toString();
+    }
 }
