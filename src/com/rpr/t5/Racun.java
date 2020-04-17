@@ -25,4 +25,12 @@ public class Racun {
     public String getBrojRacuna() {
         return brojRacuna.toString();
     }
+
+    public boolean isOdobrenjePrekoracenja() {
+        return odobrenjePrekoracenja;
+    }
+
+    public void setOdobrenjePrekoracenja(boolean odobrenjePrekoracenja) {
+        this.odobrenjePrekoracenja = odobrenjePrekoracenja;
+    }
 }
