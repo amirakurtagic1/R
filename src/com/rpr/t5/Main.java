@@ -37,6 +37,8 @@ public class Main {
 
         Kredit.ispisiSveKorisnikeBezPrekoracenja(banka.getKorisnici());
 
+     /*   k1.getRacun().izvrsiIsplatu(2500);
+        System.out.println(k1.getRacun().getStanjeRacuna());   */
  
     }
 }

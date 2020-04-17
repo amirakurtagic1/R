@@ -18,6 +18,11 @@ public class Racun {
         System.out.println(stanjeRacuna);
     }
 
+    public void izvrsiIsplatu(double isplata){
+        if(stanjeRacuna >= isplata) stanjeRacuna -= isplata;
+        else throw new IllegalArgumentException("Nemate dovoljno novca na računu!");
+    }
+
     public Number getStanjeRacuna() {
         return stanjeRacuna;
     }
@@ -33,4 +38,5 @@ public class Racun {
     public void setOdobrenjePrekoracenja(boolean odobrenjePrekoracenja) {
         this.odobrenjePrekoracenja = odobrenjePrekoracenja;
     }
+
 }
