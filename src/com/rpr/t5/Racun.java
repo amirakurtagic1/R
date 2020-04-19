@@ -31,11 +31,11 @@ public class Racun {
         return brojRacuna.toString();
     }
 
-    public boolean isOdobrenjePrekoracenja() {
+    public boolean provjeriOdobrenjePrekoracenja() {
         return odobrenjePrekoracenja;
     }
 
-    public void setOdobrenjePrekoracenja(boolean odobrenjePrekoracenja) {
+    public void odobriPrekoracenja(boolean odobrenjePrekoracenja) {
         this.odobrenjePrekoracenja = odobrenjePrekoracenja;
     }
 
